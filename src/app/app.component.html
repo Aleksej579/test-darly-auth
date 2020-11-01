@@ -1,79 +1,11 @@
+<h1>Log in or register</h1>
+
+<nav>
+  <ul>
+    <li><a routerLink="/page-auth" routerLinkActive="active">log & pass</a></li>
+    <li><a routerLink="/page-reg" routerLinkActive="active">register</a></li>
+  </ul>
+</nav>
+
+
 <router-outlet></router-outlet>
-
-<!-- Enter -->
-<mat-card class="example-card">
-  <mat-card-header>
-    <mat-card-title>Log In</mat-card-title>
-    <mat-card-subtitle>Enter you data</mat-card-subtitle>
-  </mat-card-header>
-  <mat-card-content>
-    <!-- input for login & pass -->
-    <form class="example-form">
-      <table class="example-full-width" cellspacing="0">
-        <tr>
-          <td>
-            <!-- login -->
-            <mat-form-field class="example-full-width">
-              <mat-label>Enter you login:</mat-label>
-              <input matInput>
-            </mat-form-field>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <!-- pass -->
-            <mat-form-field class="example-full-width">
-              <mat-label>Enter you password:</mat-label>
-              <input matInput>
-            </mat-form-field>
-          </td>
-        </tr>
-      </table>
-    </form>
-  </mat-card-content>
-  <mat-card-actions>
-    <!-- button enter or go register -->
-    <button mat-raised-button>Log in</button>
-    <a mat-raised-button href="https://www.google.com/" target="_blank">Registred</a>
-  </mat-card-actions>
-</mat-card>
-
-
-<!-- Enter -->
-<mat-card class="example-card">
-  <mat-card-header>
-    <mat-card-title>Sign Up</mat-card-title>
-    <mat-card-subtitle>Enter you data</mat-card-subtitle>
-  </mat-card-header>
-  <mat-card-content>
-    <!-- input for login & pass -->
-    <form class="example-form">
-      <table class="example-full-width" cellspacing="0">
-        <tr>
-          <td>
-            <mat-form-field class="example-full-width">
-              <mat-label>Сreate a login</mat-label>
-              <input matInput #message maxlength="256" placeholder="Ex. I need help with...">
-              <mat-hint align="start"><strong>Don't disclose personal info</strong> </mat-hint>
-              <mat-hint align="end">{{message.value.length}} / 256</mat-hint>
-            </mat-form-field>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <mat-form-field class="example-full-width">
-              <mat-label>Сreate a password</mat-label>
-              <input matInput #message maxlength="256" placeholder="Ex. I need help with...">
-              <mat-hint align="start"><strong>Don't disclose personal info</strong> </mat-hint>
-              <mat-hint align="end">{{message.value.length}} / 256</mat-hint>
-            </mat-form-field>
-          </td>
-        </tr>
-      </table>
-    </form>
-  </mat-card-content>
-  <mat-card-actions>
-    <!-- button register -->
-    <a mat-raised-button href="https://www.google.com/" target="_blank">Registred</a>
-  </mat-card-actions>
-</mat-card>

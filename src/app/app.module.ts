@@ -12,13 +12,17 @@ import { MatCardModule } from '@angular/material/card';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatInputModule } from '@angular/material/input';
 import { MatIconModule } from '@angular/material/icon';
+import { PageAuthComponent } from './page-auth/page-auth.component';
+import { PageRegComponent } from './page-reg/page-reg.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    ScreenSignInComponent
+    ScreenSignInComponent,
+    PageAuthComponent,
+    PageRegComponent
   ],
   imports: [
     BrowserModule,
