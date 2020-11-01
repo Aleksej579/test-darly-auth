@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "authentication-5bff9": {
+      "hosting": {
+        "test-darly-auth": [
+          "authentication-5bff9"
+        ]
+      }
+    }
+  }
+}

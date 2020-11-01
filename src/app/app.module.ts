@@ -14,6 +14,9 @@ import { MatInputModule } from '@angular/material/input';
 import { MatIconModule } from '@angular/material/icon';
 import { PageAuthComponent } from './page-auth/page-auth.component';
 import { PageRegComponent } from './page-reg/page-reg.component';
+import { PageTargetComponent } from './page-target/page-target.component';
+import { MatMenuModule } from '@angular/material/menu';
+import { MatStepperModule } from '@angular/material/stepper';
 
 
 
@@ -22,7 +25,8 @@ import { PageRegComponent } from './page-reg/page-reg.component';
     AppComponent,
     ScreenSignInComponent,
     PageAuthComponent,
-    PageRegComponent
+    PageRegComponent,
+    PageTargetComponent
   ],
   imports: [
     BrowserModule,
@@ -33,7 +37,9 @@ import { PageRegComponent } from './page-reg/page-reg.component';
     MatCardModule,
     MatDividerModule,
     MatInputModule,
-    MatIconModule
+    MatIconModule,
+    MatMenuModule,
+    MatStepperModule
 
 
   ],

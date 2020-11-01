@@ -1,11 +1,12 @@
-<h1>Log in or register</h1>
+<mat-card class="example-card">
+  <h1>Sign up or Registration</h1>
+  <button mat-raised-button routerLink="/" routerLinkActive="active">Home</button>
+  <button mat-raised-button color="primary" routerLink="/page-auth" routerLinkActive="active">Sign Up</button>
+  <button mat-raised-button color="primary" routerLink="/page-reg" routerLinkActive="active">Registration</button>
+  <button mat-stroked-button routerLink="/page-target" routerLinkActive="active">Page</button>
 
-<nav>
-  <ul>
-    <li><a routerLink="/page-auth" routerLinkActive="active">log & pass</a></li>
-    <li><a routerLink="/page-reg" routerLinkActive="active">register</a></li>
-  </ul>
-</nav>
+</mat-card>
+
 
 
 <router-outlet></router-outlet>
