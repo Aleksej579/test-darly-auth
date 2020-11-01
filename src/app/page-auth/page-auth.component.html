@@ -12,8 +12,15 @@
                     <td>
                         <!-- login -->
                         <mat-form-field class="example-full-width">
-                            <mat-label>Enter you login:</mat-label>
-                            <input matInput>
+                            <mat-label>Email</mat-label>
+                            <input matInput [formControl]="emailFormControl" placeholder="Ex. pat@example.com">
+                            <mat-error
+                                *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
+                                Please enter a valid email address
+                            </mat-error>
+                            <mat-error *ngIf="emailFormControl.hasError('required')">
+                                Email is <strong>required</strong>
+                            </mat-error>
                         </mat-form-field>
                     </td>
                 </tr>
@@ -27,12 +34,7 @@
                     </td>
                 </tr>
             </table>
+            <button mat-raised-button color="accent">Sign Up</button>
         </form>
     </mat-card-content>
-    <mat-card-actions>
-        <!-- button enter or go register -->
-        <button mat-raised-button color="accent">Sign Up</button>
-    </mat-card-actions>
-
-
 </mat-card>

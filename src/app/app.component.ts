@@ -10,9 +10,15 @@ export class AppComponent {
   title = 'Auth';
 
   //new
+  // emailFormControl = new FormControl('', [
+  //   Validators.required,
+  //   Validators.email,
+  // ]);
+}
+
+export class InputErrorsExample {
   emailFormControl = new FormControl('', [
     Validators.required,
     Validators.email,
   ]);
-
 }

@@ -17,7 +17,7 @@ import { PageRegComponent } from './page-reg/page-reg.component';
 import { PageTargetComponent } from './page-target/page-target.component';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatStepperModule } from '@angular/material/stepper';
-
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -39,7 +39,9 @@ import { MatStepperModule } from '@angular/material/stepper';
     MatInputModule,
     MatIconModule,
     MatMenuModule,
-    MatStepperModule
+    MatStepperModule,
+    FormsModule,
+    ReactiveFormsModule,
 
 
   ],
