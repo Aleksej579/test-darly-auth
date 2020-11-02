@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { FormControl, Validators } from '@angular/forms'; //new
 
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -8,12 +9,6 @@ import { FormControl, Validators } from '@angular/forms'; //new
 })
 export class AppComponent {
   title = 'Auth';
-
-  //new
-  // emailFormControl = new FormControl('', [
-  //   Validators.required,
-  //   Validators.email,
-  // ]);
 }
 
 export class InputErrorsExample {
@@ -22,3 +17,11 @@ export class InputErrorsExample {
     Validators.email,
   ]);
 }
+
+
+//
+// let f = document.querySelector('#cemail');
+// console.log(f);
+// var val = document.getElementById('cemail').value;
+
+
