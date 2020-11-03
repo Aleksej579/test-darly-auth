@@ -41,3 +41,6 @@ export class PageAuthComponent implements OnInit {
 
 
 }
+
+
+// window.location = '/page-target'
