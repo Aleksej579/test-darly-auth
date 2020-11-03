@@ -18,10 +18,3 @@ export class InputErrorsExample {
   ]);
 }
 
-
-//
-// let f = document.querySelector('#cemail');
-// console.log(f);
-// var val = document.getElementById('cemail').value;
-
-
