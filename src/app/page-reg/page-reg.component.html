@@ -13,7 +13,7 @@
                         <mat-form-field class="example-full-width">
                             <mat-label>Сreate a email</mat-label>
                             <input matInput #message maxlength="256" placeholder="Enter login" id="email" name="email"
-                                [(ngModel)]="loginForm.email">
+                                [(ngModel)]="loginForm.cemail">
                             <mat-hint align="start"><strong>Don't disclose personal info</strong> </mat-hint>
                             <mat-hint align="end">{{message.value.length}} / 256</mat-hint>
                         </mat-form-field>
@@ -24,7 +24,7 @@
                         <mat-form-field class="example-full-width">
                             <mat-label>Сreate a password</mat-label>
                             <input matInput #message maxlength="256" placeholder="Enter password" id="password"
-                                name="password" [(ngModel)]="loginForm.password">
+                                name="password" [(ngModel)]="loginForm.cpassword">
                             <mat-hint align="start"><strong>Don't disclose personal info</strong> </mat-hint>
                             <mat-hint align="end">{{message.value.length}} / 256</mat-hint>
                         </mat-form-field>
