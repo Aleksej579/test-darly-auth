@@ -25,3 +25,8 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+![FireShot Capture 033 - TestDarlyAuth - authentication-5bff9 web app](https://user-images.githubusercontent.com/16978473/172672875-a7239f52-422d-499f-8388-9579de935d00.png)
+![FireShot Capture 034 - TestDarlyAuth - authentication-5bff9 web app](https://user-images.githubusercontent.com/16978473/172672880-56c743d0-0b7e-4a31-82ef-a460ccd3ab06.png)
+![FireShot Capture 035 - TestDarlyAuth - authentication-5bff9 web app](https://user-images.githubusercontent.com/16978473/172672884-fffce16e-355a-4e2d-a805-a294e7cb0449.png)
+![FireShot Capture 037 - TestDarlyAuth - authentication-5bff9 web app](https://user-images.githubusercontent.com/16978473/172672887-ded4da88-0fc1-4ef0-936b-22b58f3aa709.png)
